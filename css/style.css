@@ -1,0 +1,56 @@
+@font-face{
+  font-family: 'Roboto';
+  src: url('../fonts/roboto-reg.ttf') format('truetype');
+}
+
+body{
+  background-image: url('../images/pink-light.jpg');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+h2,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: underline;
+  margin: 15px 0;
+}
+
+p {
+  font-family: 'Robot', sans-serif;
+  line-height: 1.8em;
+  margin: 10px 0;
+}
+
+main {
+  background: white;
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 30px;
+  color: darkslategrey;
+  border: 1px solid black;
+  border-radius: 1px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-image {
+  text-align: center;
+  margin-bottom: 50px;
+}
