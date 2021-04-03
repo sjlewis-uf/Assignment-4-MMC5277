@@ -58,10 +58,8 @@ p {
 }
 
 main {
-  background: white;
   max-width: 75%;
   margin: 0 auto;
-  padding: 30px;
   color: darkslategrey;
   border: 1px solid black;
   border-radius: 1px;
@@ -90,13 +88,18 @@ footer {
 }
 
 .jodie-comer {
-  position: absolute;
-  top: 35%;
-  right: 2%;
+  float: right;
+  margin-right: 2%;
+  margin-top: 35%;
 }
 
 .highlight {
   font-size: 30px;
   color: cyan;
   font-weight: 500;
+}
+
+.body-copy {
+    background: white;
+    padding: 30px;
 }
