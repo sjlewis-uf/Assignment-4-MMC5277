@@ -38,7 +38,7 @@ header a {
 
 h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 300;
   text-align: center;
   color: white;
@@ -77,4 +77,20 @@ footer {
   background: url(../images/killing-eve3.png) right/cover no-repeat fixed;
   min-height: 100vh;
   position: relative;
+}
+
+.hero-content {
+  color: white;
+}
+
+.sandra-oh {
+    position: absolute;
+    top: 15%;
+    padding: 10px;
+}
+
+.jodie-comer {
+    position: absolute;
+    top: 35%;
+    right: 2%;
 }
